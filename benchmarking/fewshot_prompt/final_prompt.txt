@@ -1,0 +1,90 @@
+You are a highly skilled medical expert tasked with evaluating multiple-choice questions. 
+Your role is to select the single most accurate and contextually correct option from the given choices. 
+Do not favor any option based on its order. For justification, follow a step by step chain of thought process. Step 1: Understand the question. Step 2: Analyze each option based on the question. Step 3: Based on the evaluation, conclude which is the best option. Finally output the option number for the correct option.
+
+Learn from the few shot examples shown below for how to arrive at the right answer:
+
+Example 1:
+Question: What is the relationship between exercise addiction and body dysmorphic disorder in individuals without eating disorder symptomology?
+Options:
+Option1: Positive correlation
+Option2: No relation
+Option3: Negative correlation
+Option4: Unclear relationship
+
+Justification:
+Lets think step by step:
+Step 1. Understanding the Question:
+The question asks whether there is a correlation between exercise addiction and body dysmorphic disorder (BDD) in individuals who do not have eating disorder symptoms.
+Step 2. Analyzing Each Option:
+Positive correlation: Since both involve preoccupation with body appearance, individuals with exercise addiction are more likely to have BDD. This suggests a positive relationship between them.
+No relation: Given their shared focus on body concerns, it is unlikely that these conditions are completely unrelated.
+Negative correlation: If exercise addiction helped reduce BDD symptoms, we would expect a negative relationship—but there is no strong evidence for this.
+Unclear relationship: While further research can refine details, current evidence supports a positive correlation rather than complete uncertainty.
+Step 3. Conclusion:
+Since both conditions often co-occur due to their focus on body image, the best-supported answer is:
+(1) Positive correlation.
+
+Correct Option: 1
+
+Example 2:
+Question: Among adolescent users of hallucinogens, which of the following factors is significantly associated with higher rates of considering suicide?
+Options: 
+Option1: Cigarette use
+Option2: Alcohol use
+Option3: Feeling sad and hopeless
+Option4: Physical exercise
+
+Justification:
+Lets think step by step:
+Step 1. Understanding the Question:
+The question asks which factor is most strongly linked to suicidal ideation among adolescents who use hallucinogens.
+Step 2. Analyzing Each Option:
+Cigarette use: Often linked to risky behaviors but not the strongest predictor of suicidal thoughts.
+Alcohol use: Can lead to impulsivity but is not the primary driver of suicidal ideation. Cigarette and alcohol use may increase risky behaviors but are not as strongly linked to suicidal ideation as emotional distress.
+Feeling sad and hopeless: A core symptom of depression, which has a well-established correlation with suicide risk. Feeling sad and hopeless is a key predictor of suicidal thoughts, making it the most significant factor.
+Physical exercise: Generally improves mental health and is linked to lower suicide risk, making it an unlikely factor. Physical exercise is the least likely factor since it reduces suicide risk.
+Step 3. Conclusion:
+Feeling sad and hopeless (3) is the most significant factor associated with considering suicide among adolescent hallucinogen users.
+
+Correct Option: 3
+
+Example 3:
+Question: Which physiological response pattern is observed in patients with disorders characterized by pervasive apprehension and avoidance during a fear elicitation task?
+Options:
+Option1: Diminished startle response
+Option2: Increased heart rate variability
+Option3: Hypervigilance responses
+Option4: Exaggerated startle reflex
+
+Justification:
+Lets think step by step:
+Step1. Understanding the Question:
+The question asks about the physiological response pattern seen in patients with pervasive apprehension and avoidance (e.g., anxiety disorders, PTSD) during a fear elicitation task (a situation designed to provoke fear).
+Step2. Analyzing Each Option:
+Diminished startle response: Patients with chronic apprehension and avoidance often exhibit a blunted physiological reaction to repeated fear stimuli, aligning with research findings.
+Increased heart rate variability: Anxiety-related disorders are more often associated with reduced heart rate variability due to heightened stress responses.
+Hypervigilance responses: While hypervigilance (increased attention to threats) is common in anxiety disorders, it does not specifically describe a physiological startle response. 
+Exaggerated startle reflex: While heightened arousal can occur in some cases (e.g., PTSD), patients with chronic apprehension and avoidance often show reduced startle responses over time.
+Step 3. Conclusion:
+The best answer is (1) Diminished startle response, as patients with persistent fear-related avoidance show a lowered physiological reactivity over time.
+
+Correct Option: 1 
+
+
+Output Format:
+Justification: 
+<Step by step thought process>
+Correct Option: <1 or 2 or 3 or 4>
+
+Question: {question}
+Options: 
+Option1: {op1}
+Option2: {op2}
+Option3: {op3}
+Option4: {op4}
+
+Respond with Justification for step by step thought process first then write the number corresponding to your choice (1 or 2 or 3 or 4) for Correct Option on the next line. 
+Justification: 
+<Step by step thought process>
+Correct Option: <correct option>

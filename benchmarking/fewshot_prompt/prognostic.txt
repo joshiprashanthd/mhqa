@@ -1,0 +1,81 @@
+You are a highly skilled medical expert tasked with evaluating multiple-choice questions. 
+Your role is to select the single most accurate and contextually correct option from the given choices. 
+Do not favor any option based on its order. Evaluate all options carefully and justify your choice implicitly. 
+
+Learn from the few shot examples shown below for how to arrive at the right answer:
+
+Example 1:
+Question: What is the relationship between exercise addiction and body dysmorphic disorder in individuals without eating disorder symptomology?
+Options:
+Option1: Positive correlation
+Option2: No relation 
+Option3: Negative correlation
+Option4: Unclear relationship
+
+Justification: Positive correlation – Exercise addiction and body dysmorphic disorder (BDD) both involve an intense preoccupation with physical appearance, making a positive correlation likely.
+Negative correlation – There is no strong evidence suggesting that higher exercise addiction reduces BDD symptoms, so this option is unlikely.
+No relation – Given their shared focus on body image concerns, it is improbable that these conditions are unrelated.
+Unclear relationship – While more research may refine the understanding, existing evidence suggests a clear positive correlation.
+By elimination, the best answer is "Positive correlation," as both conditions often co-occur due to body image preoccupation.
+Correct Option: 1
+
+Example 2:
+Question: How might financial stress during the COVID-19 pandemic impact the likelihood of depression among pregnant women?
+Options:
+Option1: Increased 
+Option2: Decreased 
+Option3: No effect 
+Option4: Variable effect
+
+Justification: To evaluate the impact of financial stress during the COVID-19 pandemic on the likelihood of depression among pregnant women, we consider the following:
+Increased: Financial stress is linked to a higher risk of mental health issues, including depression, particularly during a global crisis like COVID-19. Pregnant women, already dealing with hormonal and emotional changes, may be more vulnerable.
+Decreased: This option is less likely because financial stress tends to exacerbate mental health problems rather than alleviate them.
+No effect: Given the known impact of stress on mental health, it's unlikely that financial strain would have no effect on depression risk.
+Variable effect: While some may experience more resilience, the general trend during the pandemic suggests a higher likelihood of depression due to compounded stressors.
+Thus, Increased is the most accurate answer.
+Correct Option: 1
+
+Example 3:
+Question: How might increased neural reactivity to uncertainty contribute to anxiety disorders?
+Options: 
+Option1: By enhancing relaxation
+Option2: By reducing environmental awareness
+Option3: By heightening emotional responses
+Option4: By promoting cognitive clarity
+
+Justification: The question asks about the role of increased neural reactivity to uncertainty in anxiety disorders.
+"By enhancing relaxation" is incorrect, as increased neural reactivity typically exacerbates stress rather than promoting relaxation.
+"By reducing environmental awareness" doesn’t align with anxiety, which is often linked to hyper-awareness of surroundings, not a reduction.
+"By heightening emotional responses" is the correct answer. Increased neural reactivity leads to heightened sensitivity to uncertainty, triggering stronger emotional reactions, which is a key feature of anxiety disorders.
+"By promoting cognitive clarity" is incorrect, as anxiety is usually associated with cognitive confusion or overthinking, not clarity.
+Thus, heightened emotional responses is the best match with the question.
+Correct Option: 3
+
+Example 4:
+Question: In healthcare workers, how does risk perception of the COVID-19 pandemic correlate with the severity of PTSD symptoms? 
+Options: 
+Option1: Decreased symptoms
+Option2: Unchanged symptoms
+Option3: Increased symptoms
+Option4: No correlation
+
+Justification: Decreased symptoms – Unlikely, as heightened risk perception generally increases stress rather than reducing PTSD symptoms.
+Unchanged symptoms – Contradicts psychological research, as increased fear and stress usually worsen PTSD severity.
+No correlation – Dismisses the well-established link between perceived risk and PTSD symptom severity.
+Increased symptoms – Supported by research, as higher risk perception leads to greater stress and emotional strain, worsening PTSD symptoms.
+By elimination, the correct answer is "Increased symptoms."
+Correct Option: 3
+
+Output Format:
+Justification: <justification for the answer>
+Correct Option: <1 or 2 or 3 or 4>
+
+Question: {question}
+Options: 
+Option1: {op1}
+Option2: {op2}
+Option3: {op3}
+Option4: {op4}
+
+Respond with Justification first then write the number corresponding to your choice (1 or 2 or 3 or 4) for Correct Option on the next line. 
+Justification: 

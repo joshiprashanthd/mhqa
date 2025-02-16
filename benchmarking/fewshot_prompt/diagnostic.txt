@@ -1,0 +1,79 @@
+You are a highly skilled medical expert tasked with evaluating multiple-choice questions. 
+Your role is to select the single most accurate and contextually correct option from the given choices. 
+Do not favor any option based on its order. Evaluate all options carefully and justify your choice implicitly. 
+
+Learn from the few shot examples shown below for how to arrive at the right answer:
+
+Example 1:
+Question: What are the risk factors associated with nonsuicidal self-injury (NSSI) among undergraduate students?
+Options: 
+Option1: History of bullying 
+Option2: Age at onset
+Option3: Gender
+Option4: Academic performance
+
+Justification: SSI is strongly linked to psychosocial stressors, with history of bullying being a significant predictor due to its impact on emotional regulation and self-esteem.
+Age at onset can indicate susceptibility but is not directly a risk factor for NSSI.
+While gender differences exist in NSSI prevalence (e.g., higher in females), it does not directly cause NSSI.
+Academic performance may contribute to stress but lacks a strong, consistent association with NSSI.
+Comparing these, history of bullying directly contributes to the emotional distress underlying NSSI, making it the correct answer.
+Correct Option: 1
+
+Example 2:
+Question: What type of antipsychotic medication was associated with increased severity of obsessive-compulsive symptoms in patients with schizophrenia?
+Options:
+Option1: Clozapine
+Option2: Risperidone 
+Option3: Aripiprazole
+Option4: Amisulpride
+
+Justification: Clozapine: Known for its efficacy in treatment-resistant schizophrenia, studies have also linked it to worsening obsessive-compulsive symptoms (OCS) in some patients. This association aligns with the question’s focus.
+Risperidone: While effective for managing both schizophrenia and OCS, it is not typically associated with increased OCS severity.
+Aripiprazole: Often used as an adjunct to manage OCS due to its partial agonism at dopamine D2 receptors, it is unlikely to exacerbate OCS.
+Amisulpride: Primarily targets negative symptoms of schizophrenia and does not have a strong link to worsening OCS.
+Clozapine is the correct answer due to its documented association with increased OCS severity in patients with schizophrenia.
+Correct Option: 1
+
+Example 3:
+Question: Which psychological resource was identified as a protective factor against anxiety and depression in caregivers?
+Options: 
+Option1: Coping strategies
+Option2: Sense of coherence
+Option3: Social support networks
+Option4: Resilience training
+
+Justification: Coping strategies: While coping strategies are essential, they focus more on managing stress rather than directly being a protective factor against anxiety and depression.
+Sense of coherence: This is the correct answer. A strong sense of coherence helps individuals understand and manage life's challenges, fostering resilience against mental health issues like anxiety and depression.
+Social support networks: These networks are crucial for emotional support but are more reactive in nature and may not always offer long-term protection against anxiety and depression.
+Resilience training: Although resilience training improves one's ability to cope with adversity, it's less of a foundational protective factor compared to the sense of coherence, which influences overall mental well-being.
+Thus, Sense of coherence stands out as the most comprehensive protective factor.
+Correct Option: 2
+
+Example 4:
+Question: Which alternative indicator is suggested for assessing the severity of eating disorders beyond the DSM-5 classification?
+Options: 
+Option1: Drive for Thinness
+Option2: Anxiety levels
+Option3: BMI categories
+Option4: Dietary restrictions
+
+Justification: Drive for Thinness – A well-recognized psychological measure directly linked to eating disorders, representing an intense preoccupation with weight loss. This makes it a strong severity indicator.
+Anxiety levels – While anxiety is commonly associated with eating disorders, it is not a direct measure of their severity. It can be a contributing factor but not a defining indicator.
+BMI categories – BMI is a physical measure used for diagnosis but does not capture the psychological severity of eating disorders. Many individuals with severe eating disorders may not have an extreme BMI.
+Dietary restrictions – Although restrictive eating is a symptom, it varies widely among individuals and does not necessarily indicate severity. Some individuals may engage in restrictive eating without a severe disorder.
+By elimination, Drive for Thinness is the best alternative indicator for assessing the severity of eating disorders.
+Correct Option: 1
+
+Output Format:
+Justification: <justification for the answer>
+Correct Option: <1 or 2 or 3 or 4>
+
+Question: {question}
+Options: 
+Option1: {op1}
+Option2: {op2}
+Option3: {op3}
+Option4: {op4}
+
+Respond with Justification first then write the number corresponding to your choice (1 or 2 or 3 or 4) for Correct Option on the next line. 
+Justification: 

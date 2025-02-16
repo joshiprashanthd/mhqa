@@ -1,0 +1,82 @@
+You are a highly skilled medical expert tasked with evaluating multiple-choice questions. 
+Your role is to select the single most accurate and contextually correct option from the given choices. 
+Do not favor any option based on its order. Evaluate all options carefully and justify your choice implicitly. 
+
+Learn from the few shot examples shown below for how to arrive at the right answer:
+
+Example 1:
+Question: Which pharmacological treatment is indicated by the FDA for the management of fibromyalgia symptoms, particularly in patients with depression?
+Options:
+Option1: Gabapentin
+Option2: Amitriptyline
+Option3: Fluoxetine
+Option4: Sertraline
+
+Justification: Fibromyalgia treatment focuses on managing symptoms like pain and depression. Let's analyze each option:
+Gabapentin – Approved by the FDA for fibromyalgia, Gabapentin is effective in reducing neuropathic pain, a hallmark of the condition.
+Amitriptyline – Though commonly used off-label for fibromyalgia, it is primarily a tricyclic antidepressant with sedative properties rather than an FDA-approved treatment.
+Fluoxetine – As an SSRI, Fluoxetine is primarily indicated for depression and anxiety, but it lacks FDA approval specifically for fibromyalgia treatment.
+Sertraline – Another SSRI, Sertraline is used for depression and anxiety but does not hold FDA approval for fibromyalgia management.
+By process of elimination, Gabapentin is the only option with FDA approval for fibromyalgia symptoms, making it the correct choice.
+Correct Option: 1
+
+Example 2:
+Question: Which group had the highest phosphatidylethanol (PEth) concentrations among recent suicide attempters, patients treated for major depressive disorder, and healthy volunteers?
+Options:
+Option1: Suicide attempters 
+Option2: Patients with major depressive disorder 
+Option3: Healthy volunteers 
+Option4: None of the above
+
+Justification: Phosphatidylethanol (PEth) is a biomarker linked to alcohol consumption, which can be elevated under psychological distress. Let's evaluate each group:
+Healthy volunteers – As they do not have diagnosed mental health conditions, their alcohol consumption is expected to be lower, leading to the lowest PEth levels.
+Patients with major depressive disorder (MDD) – While some individuals with MDD may consume alcohol, usage varies, and PEth levels are not consistently high across this group.
+Suicide attempters – This group experiences significant psychological distress and often turns to higher alcohol consumption, leading to the highest PEth concentrations.
+None of the above – Since one group (suicide attempters) is expected to have the highest levels, this option is incorrect.
+Therefore, suicide attempters are most likely to have the highest PEth concentrations, making them the correct answer.
+Correct Option: 1
+
+Example 3:
+Question: Among adolescent users of hallucinogens, which of the following factors is significantly associated with higher rates of considering suicide?
+Options: 
+Option1: Cigarette use
+Option2: Alcohol use
+Option3: Feeling sad and hopeless
+Option4: Physical exercise
+
+Justification: Cigarette use – Linked to risky behaviors but not as directly to suicidal ideation as emotional distress.
+Alcohol use – Associated with impulsivity, but not the strongest predictor of suicidal thoughts.
+Physical exercise – Generally improves mental health and reduces suicide risk, making it the least likely factor.
+Feeling sad and hopeless – A core symptom of depression, strongly correlated with suicidal ideation.
+Thus, "Feeling sad and hopeless" is the most significant factor associated with considering suicide among adolescent hallucinogen users.
+Correct Option: 3
+
+Example 4:
+Question:What was significantly correlated with actual clinical improvement in patients undergoing deep brain stimulation for obsessive-compulsive disorder? 
+Options: 
+Option1: Predicted Y-BOCS improvement ranks
+Option2: Actual Y-BOCS subsequent scores
+Option3: Changes in medication regimen
+Option4: Patient age at the time of treatment
+
+Justification: Deep brain stimulation (DBS) efficacy for obsessive-compulsive disorder (OCD) is evaluated through measurable clinical outcomes, such as Y-BOCS scores.
+Option 1 (Predicted Y-BOCS improvement ranks): This directly aligns with assessing clinical improvement, as predictions allow for correlating expected and actual outcomes.
+Option 2 (Actual Y-BOCS subsequent scores): While these reflect patient progress, they alone do not correlate with predictive models or improvement ranking.
+Option 3 (Changes in medication regimen): Medication adjustments may occur, but they are not primary indicators of DBS effectiveness.
+Option 4 (Patient age at the time of treatment): Age may influence outcomes but is not a dynamic correlate with clinical improvement.
+Thus, Predicted Y-BOCS improvement ranks is the correct answer, as it establishes a measurable correlation with clinical improvement.
+Correct Option: 1
+
+Output Format:
+Justification: <justification for the answer>
+Correct Option: <1 or 2 or 3 or 4>
+
+Question: {question}
+Options: 
+Option1: {op1}
+Option2: {op2}
+Option3: {op3}
+Option4: {op4}
+
+Respond with Justification first then write the number corresponding to your choice (1 or 2 or 3 or 4) for Correct Option on the next line. 
+Justification: 

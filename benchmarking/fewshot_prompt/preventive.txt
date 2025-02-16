@@ -1,0 +1,79 @@
+You are a highly skilled medical expert tasked with evaluating multiple-choice questions. 
+Your role is to select the single most accurate and contextually correct option from the given choices. 
+Do not favor any option based on its order. Evaluate all options carefully and justify your choice implicitly. 
+
+Learn from the few shot examples shown below for how to arrive at the right answer:
+
+Example 1:
+Question: What psychosocial factors may serve as protective elements against suicide attempts in mood disorder patients?
+Options:
+Option1: Higher family support 
+Option2: Lower social media use
+Option3: Increased physical activity
+Option4: Lower stress levels
+
+Justification: Higher family support – Provides emotional stability, a sense of belonging, and crisis support, making it a strong protective factor.
+Lower social media use – While it may reduce negative influences, it is not a direct psychosocial protective factor.
+Increased physical activity – Helps with mental health but is more of a coping mechanism than a core psychosocial factor.
+Lower stress levels – Beneficial but more of an outcome rather than a distinct psychosocial element.
+By elimination, "Higher family support" is the strongest protective factor against suicide attempts.
+Correct Option: 1
+
+Example 2:
+Question: Which injury type is associated with a higher risk of mortality in facial gunshot wound patients?
+Options:
+Option1: Self-inflicted injury 
+Option2: Other-inflicted injury 
+Option3: Mandibular injury
+Option4: Submental injury
+
+Justification: Self-inflicted injury – Often results in more severe, complex complications and higher mortality risk due to potential for deeper, more damaging wounds.
+Other-inflicted injury – While serious, it typically doesn't carry the same high mortality risk as self-inflicted wounds.
+Mandibular injury – Involves fractures, but generally not fatal unless there are severe complications, making it less likely to result in high mortality on its own.
+Submental injury – Though it can complicate airway management, it is typically not directly fatal.
+By elimination, "Self-inflicted injury" is associated with the highest mortality risk due to its severity and complexity.
+Correct Option: 1
+
+Example 3:
+Question: What should targeted suicide prevention strategies focus on to address the link between childhood physical abuse and suicidal behaviors?
+Options: 
+Option1: Increased parental supervision
+Option2: Reduction of youth aggression
+Option3: Enhancing community support
+Option4: Improving educational outcomes
+
+Justification: Increased parental supervision – While important, it doesn't directly address the emotional and behavioral impacts of abuse, such as aggression.
+Reduction of youth aggression – Directly targets the emotional and behavioral consequences of childhood physical abuse, which can reduce the risk of suicidal behaviors.
+Enhancing community support – Provides secondary support but doesn't directly address the root emotional issues related to childhood abuse.
+Improving educational outcomes – Important for long-term development, but it doesn't directly address the immediate effects of abuse, like aggression and emotional distress.
+By elimination, "Reduction of youth aggression" is the most focused and effective strategy to prevent suicidal behaviors linked to childhood abuse. 
+Correct Option: 2
+
+Example 4:
+Question: What type of coping style may lower the likelihood of suicidality among sexual minority individuals?
+Options: 
+Option1: Active coping 
+Option2: Avoidant coping
+Option3: Passive coping
+Option4: Disengaged coping
+
+Justification: Active coping – Involves engaging with stressors and problem-solving, which can reduce suicidality by fostering resilience and emotional regulation.
+Avoidant coping – Involves avoiding stressors, which generally worsens distress and can increase suicidality risk.
+Passive coping – Characterized by passivity and lack of engagement, leading to emotional strain and heightened risk of suicidality.
+Disengaged coping – Involves detachment, preventing individuals from addressing core issues, which can increase the risk of suicidality.
+By elimination, "Active coping" is the most effective in lowering suicidality among sexual minority individuals, as it encourages engagement and resilience.
+Correct Option: 1
+
+Output Format:
+Justification: <justification for the answer>
+Correct Option: <1 or 2 or 3 or 4>
+
+Question: {question}
+Options: 
+Option1: {op1}
+Option2: {op2}
+Option3: {op3}
+Option4: {op4}
+
+Respond with Justification first then write the number corresponding to your choice (1 or 2 or 3 or 4) for Correct Option on the next line. 
+Justification: 
